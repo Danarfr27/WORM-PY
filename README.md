@@ -1,46 +1,46 @@
 # WormGPT Python Script
 
-This script is a Python-based terminal client for interacting with an AI persona. It provides a conversational interface with customizable text colors for user and AI responses.
+Script ini adalah klien terminal berbasis Python untuk berinteraksi dengan persona AI. Script ini menyediakan antarmuka percakapan dengan warna teks yang dapat disesuaikan untuk respons pengguna dan AI.
 
-## Features
+## Fitur
 
-- AI persona with a predefined character.
-- Interactive chat interface.
-- Customizable text colors for better readability.
+- Persona AI dengan karakter yang telah ditentukan.
+- Antarmuka chat interaktif.
+- Warna teks yang dapat disesuaikan untuk kenyamanan membaca.
 
 ---
 
-## Prerequisites
+## Prasyarat
 
-To run this script, you need to install the following dependencies:
+Untuk menjalankan script ini, Anda perlu menginstal dependensi berikut:
 
-### Python Requirements
+### Persyaratan Python
 
-- Python 3.6 or higher
-- Required Python libraries:
+- Python 3.6 atau lebih tinggi
+- Library Python yang diperlukan:
   - `requests`
   - `colorama`
 
-### Supported Environments
+### Lingkungan yang Didukung
 
 - Termux (Android)
-- Ubuntu Terminal
-- Kali Linux Terminal
+- Terminal Ubuntu
+- Terminal Kali Linux
 
 ---
 
-## Installation Guide
+## Panduan Instalasi
 
-### 1. Clone the Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Danarfr27/WORM-PY.git
 cd WORM-PY
 ```
 
-### 2. Install Python
+### 2. Instal Python
 
-Ensure Python is installed on your system. For Termux, Ubuntu, or Kali Linux, use the following commands:
+Pastikan Python telah terinstal di sistem Anda. Untuk Termux, Ubuntu, atau Kali Linux, gunakan perintah berikut:
 
 #### Termux:
 
@@ -55,9 +55,9 @@ sudo apt update
 sudo apt install python3
 ```
 
-### 3. Install Required Libraries
+### 3. Instal Library yang Diperlukan
 
-Install the required Python libraries using `pip`:
+Instal library Python yang diperlukan menggunakan `pip`:
 
 ```bash
 pip install requests colorama
@@ -65,49 +65,49 @@ pip install requests colorama
 
 ---
 
-## Usage
+## Cara Penggunaan
 
-### 1. Run the Script
+### 1. Jalankan Script
 
-To start the script, use the following command:
+Untuk memulai script, gunakan perintah berikut:
 
 ```bash
 python3 worm.py
 ```
 
-### 2. Interact with the AI
+### 2. Berinteraksi dengan AI
 
-- Type your message and press Enter to interact with the AI.
-- Use the following commands:
-  - `exit` or `keluar` to exit the script.
-  - `reset` to reset the conversation.
-
----
-
-## Notes
-
-- Ensure you have a stable internet connection as the script interacts with an external API.
-- The API URL is predefined in the script. Update it if necessary.
+- Ketik pesan Anda dan tekan Enter untuk berinteraksi dengan AI.
+- Gunakan perintah berikut:
+  - `exit` atau `keluar` untuk keluar dari script.
+  - `reset` untuk mereset percakapan.
 
 ---
 
-## Troubleshooting
+## Catatan
 
-### Common Issues
+- Pastikan Anda memiliki koneksi internet yang stabil karena script ini berinteraksi dengan API eksternal.
+- URL API telah ditentukan di dalam script. Perbarui jika diperlukan.
 
-1. **`requests` library not found:**
-   - Ensure you have installed the `requests` library using `pip install requests`.
+---
+
+## Pemecahan Masalah
+
+### Masalah Umum
+
+1. **Library `requests` tidak ditemukan:**
+   - Pastikan Anda telah menginstal library `requests` menggunakan `pip install requests`.
 
 2. **Permission Denied:**
-   - Ensure the script has executable permissions:
+   - Pastikan script memiliki izin eksekusi:
      ```bash
      chmod +x worm.py
      ```
 
-3. **Connection Errors:**
-   - Check your internet connection.
-   - Verify the API URL in the script.
+3. **Kesalahan Koneksi:**
+   - Periksa koneksi internet Anda.
+   - Verifikasi URL API di dalam script.
 
 ---
 
-Enjoy using WormGPT!
+Selamat menggunakan WormGPT!
