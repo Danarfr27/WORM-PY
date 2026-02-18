@@ -137,7 +137,8 @@ def main():
     print("\nAI: Halo, ada yang bisa saya bantu?\n")
 
     while True:
-        user_input = input("Kamu: ").strip()
+        print(fore.LIGHTRED_EX + "Kamu: " + style.RESET_ALL, end="")
+        user_input = input().strip()
 
         if not user_input:
             continue
@@ -159,7 +160,7 @@ def main():
 
         loading()
         reply = chat_with_ai(user_input)
-        print(f"AI: {reply}\n")
+        print(fore.LIGHTRED_EX + "AI: " + fore.LIGHTGREEN_EX + f"{reply}\n" + style.RESET_ALL)
 
 
 # =====================================================
@@ -175,5 +176,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     main()
-
 
